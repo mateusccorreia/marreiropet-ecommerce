@@ -40,15 +40,21 @@
         </nav>
     </header>
 
+    <!-- This is the slideshow -->
     <section>
-        <div class="carrossel">
-            <div class="container" id="img">
+        <div class="slideshow-container">
+            <div class="mySlides" id="img">
                 <img src="./assets/image1.webp" alt="promoção">
                 <img src="./assets/image2.webp" alt="promoção">
                 <img src="./assets/image3.gif" alt="promoção">
             </div>
+            <a class="slideshow-prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="slideshow-next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-    </section class="product">
+        <br>
+    </section>
+
+    <section class="product">
         <h2 class="recomendation-products">Produtos Recomendados</h2>
         <button class="pre-btn"><img src="./assets/arrow.png" alt=""></button>
         <button class="nxt-btn"><img src="./assets/arrow.png" alt=""></button>
@@ -136,11 +142,72 @@
                     <p class="product-short-des">Uma breve descrição do produto</p>
                     <span class="price">R$ 20,00</span>
                 </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="./assets/product-01.webp" alt="produto-01" class="product-thumb">
+                    <button class="card-btn">Adicionar ao Carrinho</button>
+                </div>            
+                <div class="product-info">
+                    <h2 class="product-name">Nome do Produto</h2>
+                    <p class="product-short-des">Uma breve descrição do produto</p>
+                    <span class="price">R$ 20,00</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="./assets/product-02.webp" alt="produto-01" class="product-thumb">
+                    <button class="card-btn">Adicionar ao Carrinho</button>
+                </div>            
+                <div class="product-info">
+                    <h2 class="product-name">Nome do Produto</h2>
+                    <p class="product-short-des">Uma breve descrição do produto</p>
+                    <span class="price">R$ 20,00</span>
+                </div>
             </div>                                              
-        </div>
-            
-    <section>
+        </div>       
+    </section>
 
+    <section id="dogFavorite" class="favorite-dog-container">
+        <div class="border-botttom-container">
+            <h2>Favoritos dos Cachorros</h2>
+            <div class="favorites-items">
+                <div class="favorites-item-column">
+                    <a href="#">
+                        <img src="./assets/cachorro-racao.webp" alt="Rações para Cachorros">
+                    </a>
+                    <h3 class="favorite-title">
+                        <a href="#">Ração</a>
+                    </h3>                        
+                </div>
+                <div class="favorites-item-column">
+                    <a href="#">
+                        <img src="./assets/cachorro-antipulgas.webp" alt="Rações para Cachorros">
+                    </a>
+                    <h3 class="favorite-title">
+                        <a href="#">Antipulgas</a>
+                    </h3>                        
+                </div>
+                <div class="favorites-item-column">
+                    <a href="#">
+                        <img src="./assets/cachorro-farmacia.webp" alt="Rações para Cachorros">
+                    </a>
+                    <h3 class="favorite-title">
+                        <a href="#">Medicamentos</a>
+                    </h3>                        
+                </div>
+                <div class="favorites-item-column">
+                    <a href="#">
+                        <img src="./assets/cachorro-snacks.webp" alt="Rações para Cachorros">
+                    </a>
+                    <h3 class="favorite-title">
+                        <a href="#">Petiscos</a>
+                    </h3>                        
+                </div>
+            </div>
+        </div>
     </section>
     
 </body>

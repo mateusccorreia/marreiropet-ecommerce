@@ -1,4 +1,4 @@
-//This is about the carrossel function
+// this is about the slideshow function
 const imgs = document.getElementById("img");
 const img = document.querySelectorAll("#img img");
 
